@@ -14,6 +14,7 @@
 		B3FE1B7629E1B0C50065FE23 /* SmillyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FE1B7529E1B0C50065FE23 /* SmillyTests.swift */; };
 		B3FE1B8029E1B0C50065FE23 /* SmillyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FE1B7F29E1B0C50065FE23 /* SmillyUITests.swift */; };
 		B3FE1B8229E1B0C50065FE23 /* SmillyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FE1B8129E1B0C50065FE23 /* SmillyUITestsLaunchTests.swift */; };
+		B3FE1B9029E1F1340065FE23 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FE1B8F29E1F1340065FE23 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		B3FE1B7B29E1B0C50065FE23 /* SmillyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmillyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3FE1B7F29E1B0C50065FE23 /* SmillyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmillyUITests.swift; sourceTree = "<group>"; };
 		B3FE1B8129E1B0C50065FE23 /* SmillyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmillyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B3FE1B8E29E1D32A0065FE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B3FE1B8F29E1F1340065FE23 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +97,10 @@
 		B3FE1B6329E1B0C40065FE23 /* Smilly */ = {
 			isa = PBXGroup;
 			children = (
+				B3FE1B8E29E1D32A0065FE23 /* Info.plist */,
 				B3FE1B6429E1B0C40065FE23 /* SmillyApp.swift */,
 				B3FE1B6629E1B0C40065FE23 /* ContentView.swift */,
+				B3FE1B8F29E1F1340065FE23 /* LocationManager.swift */,
 				B3FE1B6829E1B0C50065FE23 /* Assets.xcassets */,
 				B3FE1B6A29E1B0C50065FE23 /* Preview Content */,
 			);
@@ -259,6 +264,7 @@
 			files = (
 				B3FE1B6729E1B0C40065FE23 /* ContentView.swift in Sources */,
 				B3FE1B6529E1B0C40065FE23 /* SmillyApp.swift in Sources */,
+				B3FE1B9029E1F1340065FE23 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +426,7 @@
 				DEVELOPMENT_TEAM = 9Q83NDCFN9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Smilly/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +456,7 @@
 				DEVELOPMENT_TEAM = 9Q83NDCFN9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Smilly/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
